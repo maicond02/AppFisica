@@ -1,0 +1,12 @@
+body{
+    background-color: #121214;
+    margin: 0 !important;
+}
+
+.menubar-home .p-menuitem-text{
+    color: #8dd0ff !important;
+}
+
+.menubar-home .p-menuitem-icon{
+    color: #8dd0ff !important;
+}

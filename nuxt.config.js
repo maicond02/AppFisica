@@ -18,7 +18,8 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-      'primeflex/primeflex.css'
+      'primeflex/primeflex.css',
+      'assets/default.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -34,11 +35,13 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // Doc: https://www.primefaces.org/primevue/showcase-v2/#/setup
-    'primevue/nuxt',
-    // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
-  ],
+    [
+        'primevue/nuxt', {
+            theme: 'bootstrap4-dark-blue',      //name of the theme, defaults to saga-blue  //whether the ripple animation is enabled, defaults to false
+            components: ['Menubar','InputText','Card','Avatar','Button'],
+        }
+    ]
+],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
