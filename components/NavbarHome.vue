@@ -18,13 +18,16 @@
             return {
                 items: [
                     {
-                    label:'Início',
+                    label:'Home',
                     },
                     {
-                    label:'Sobre nós',
+                    label:'Programas',
                     },
                     {
-                    label:'Doações',
+                    label:'Sobre',
+                    },
+                    {
+                    label:'Para empresas',
                     },
                 ]       
             }
