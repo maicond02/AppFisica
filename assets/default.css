@@ -1,12 +1,28 @@
-body{
-    background-color: #121214;
+body {
+    background: linear-gradient(-45deg, rgb(58, 58, 255), #7c01ff, #5d007f, #1b0030);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 100vh;
     margin: 0 !important;
-}
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+    
+  }
 
 .menubar-home .p-menuitem-text{
-    color: #8dd0ff !important;
+    color: white !important;
 }
 
 .menubar-home .p-menuitem-icon{
-    color: #8dd0ff !important;
+    color: white !important;
 }

@@ -5,8 +5,8 @@
 
             </template>
             <template #end>
-                <Button label="Registrar-se" class="p-button-outlined" icon="pi pi-fw pi-user-plus"/>
-                <Button label="Já sou aluno" icon="pi pi-fw pi-user"/>
+                <Button label="Registrar-se" class="p-button-raised p-button-help p-button-text" icon="pi pi-fw pi-user-plus"/>
+                <Button label="Já sou aluno" icon="pi pi-fw pi-user" class="p-button-outlined p-button-help"/>
             </template>
         </Menubar>
     </div>
@@ -37,11 +37,13 @@
 
 <style scoped>
     .p-menubar::v-deep{
-        background-color: #121214;
+        background-color: rgba(0, 0, 0, 0.5);
         color: white;
-        border-bottom: 1px #8dd0ff solid;
     }
    .p-menuitem-text{
+        color: white !important;
+    }
+    .p-button{
         color: white !important;
     }
 </style>
