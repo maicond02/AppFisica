@@ -1,5 +1,5 @@
 <template>
-    <Menubar :model="items" />
+    <Menubar :model="items" orientation="vertical"/>
   </template>
   
   <script>
@@ -8,134 +8,50 @@
           return {
               items: [
                   {
-                     label:'File',
-                     icon:'pi pi-fw pi-file',
-                     items:[
-                        {
-                           label:'New',
-                           icon:'pi pi-fw pi-plus',
-                           items:[
-                              {
-                                 label:'Bookmark',
-                                 icon:'pi pi-fw pi-bookmark'
-                              },
-                              {
-                                 label:'Video',
-                                 icon:'pi pi-fw pi-video'
-                              },
-  
-                           ]
-                        },
-                        {
-                           label:'Delete',
-                           icon:'pi pi-fw pi-trash'
-                        },
-                        {
-                           separator:true
-                        },
-                        {
-                           label:'Export',
-                           icon:'pi pi-fw pi-external-link'
-                        }
-                     ]
+                     label:'Home',
+                     to:'/'
                   },
                   {
-                     label:'Edit',
-                     icon:'pi pi-fw pi-pencil',
-                     items:[
-                        {
-                           label:'Left',
-                           icon:'pi pi-fw pi-align-left'
-                        },
-                        {
-                           label:'Right',
-                           icon:'pi pi-fw pi-align-right'
-                        },
-                        {
-                           label:'Center',
-                           icon:'pi pi-fw pi-align-center'
-                        },
-                        {
-                           label:'Justify',
-                           icon:'pi pi-fw pi-align-justify'
-                        },
-  
-                     ]
+                     label:'Aulas',
                   },
                   {
-                     label:'Users',
+                     label:'Materiais',
+                  },
+                  {
+                     label:'Fórum',
+                  },
+                  {
+                     label:'Aulas ao vivo',
+                  },
+                  {
+                     label:'Usuário',
                      icon:'pi pi-fw pi-user',
                      items:[
                         {
-                           label:'New',
+                           label:'Perfil',
                            icon:'pi pi-fw pi-user-plus',
   
                         },
                         {
-                           label:'Delete',
+                           label:'Sair',
                            icon:'pi pi-fw pi-user-minus',
   
                         },
-                        {
-                           label:'Search',
-                           icon:'pi pi-fw pi-users',
-                           items:[
-                              {
-                                 label:'Filter',
-                                 icon:'pi pi-fw pi-filter',
-                                 items:[
-                                    {
-                                       label:'Print',
-                                       icon:'pi pi-fw pi-print'
-                                    }
-                                 ]
-                              },
-                              {
-                                 icon:'pi pi-fw pi-bars',
-                                 label:'List'
-                              }
-                           ]
-                        }
                      ]
                   },
-                  {
-                     label:'Events',
-                     icon:'pi pi-fw pi-calendar',
-                     items:[
-                        {
-                           label:'Edit',
-                           icon:'pi pi-fw pi-pencil',
-                           items:[
-                              {
-                                 label:'Save',
-                                 icon:'pi pi-fw pi-calendar-plus'
-                              },
-                              {
-                                 label:'Delete',
-                                 icon:'pi pi-fw pi-calendar-minus'
-                              },
-  
-                           ]
-                        },
-                        {
-                           label:'Archieve',
-                           icon:'pi pi-fw pi-calendar-times',
-                           items:[
-                              {
-                                 label:'Remove',
-                                 icon:'pi pi-fw pi-calendar-minus'
-                              }
-                           ]
-                        }
-                     ]
-                  },
-                  {
-                     label:'Quit',
-                     icon:'pi pi-fw pi-power-off'
-                  }
                ]
           }
       }
     }
   </script>
+
+<style scoped>
+   .p-menubar::v-deep{
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+    }
+    ::v-deep .p-submenu-list{
+      background-color: rgba(0, 0, 0, 0.5) !important;
+    }
+</style>
   
