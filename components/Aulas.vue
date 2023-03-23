@@ -11,7 +11,7 @@
                             <Card>
                                 <template #content>
                                     <div class="flex flex-wrap align-items-center justify-content-center">
-                                        <h2>Aulas</h2>
+                                        <h2>Física 1</h2>
                                     </div>
                                 </template>
                             </Card>
@@ -22,7 +22,7 @@
                             <Card>
                                 <template #content>
                                     <div class="flex flex-wrap align-items-center justify-content-center">
-                                        <h2>Materiais</h2>
+                                        <h2>Física 2</h2>
                                     </div>
                                 </template>
                             </Card>
@@ -35,7 +35,7 @@
                             <Card>
                                 <template #content>
                                     <div class="flex flex-wrap align-items-center justify-content-center">
-                                        <h2>Ao vivo</h2>
+                                        <h2>Física 3</h2>
                                     </div>
                                 </template>
                             </Card>

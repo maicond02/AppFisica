@@ -38,7 +38,7 @@ export default {
     [
         'primevue/nuxt', {
             theme: 'bootstrap4-dark-blue',      //name of the theme, defaults to saga-blue  //whether the ripple animation is enabled, defaults to false
-            components: ['Menubar','InputText','Card','Avatar','Button','Card','MegaMenu'],
+            components: ['Menubar','InputText','Card','Avatar','Button','Card','MegaMenu','TabMenu'],
         }
     ]
 ],
