@@ -47,11 +47,11 @@
 
 <style scoped>
    .p-menubar::v-deep{
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgb(255, 255, 255);
         color: white;
     }
-    ::v-deep .p-submenu-list{
-      background-color: rgba(0, 0, 0, 0.5) !important;
+    ::v-deep .p-menuitem-text{
+        color: black !important;
     }
 </style>
   
