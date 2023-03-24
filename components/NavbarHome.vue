@@ -6,10 +6,10 @@
             </template>
             <template #end>
                 <nuxt-link to="/register">
-                    <Button label="Registrar-se" class="p-button-raised p-button-help p-button-text" icon="pi pi-fw pi-user-plus"/>
+                    <Button label="Registrar-se" class="p-button-raised p-button-secondary p-button-text" icon="pi pi-fw pi-user-plus"/>
                 </nuxt-link>
                 <nuxt-link to="/login">
-                    <Button label="Já sou aluno" icon="pi pi-fw pi-user" class="p-button-outlined p-button-help"/>
+                    <Button label="Já sou aluno" icon="pi pi-fw pi-user" class="p-button-outlined p-button-secondary"/>
                 </nuxt-link>
             </template>
         </Menubar>
@@ -41,15 +41,15 @@
 </script>
 
 <style scoped>
-    .p-menubar::v-deep{
-        background-color: rgba(0, 0, 0, 0.5);
-        color: white;
+    ::v-deep .p-menubar{
+        background: white;
+        color: black;
     }
-   .p-menuitem-text{
-        color: white !important;
+    ::v-deep .p-menuitem-text{
+        color: black !important;
     }
     .p-button{
-        color: white !important;
+        color: black !important;
     }
     a{
         text-decoration: none !important;

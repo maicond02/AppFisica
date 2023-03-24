@@ -4,27 +4,27 @@
             <div class="col">
                 <Card style="min-width: 98vw;">
                     <template #title>
-                        <div class="flex-column flex-wrap flex align-items-center justify-content-center">
-                            <div style="max-width: 60%;" >
-                                <h2 >Aprenda física de maneira totalmente</h2>
-                                <h2 class="flex align-items-center justify-content-center">gratuíta e descomplicada.</h2>
-                            </div>
-                            <div>
-                                <p>O mapa completo para você impulsionar seus estudos.</p>
-                            </div>
-                            <div>
-                                <Button label="Registrar-se gratuitamente" icon="pi pi-user-plus" class="p-button-outlined p-button-help"/>
-                            </div>
-                            <br>
-                            <div>
-                                <iframe  style="min-width: 50vw; min-height: 50vh;" src="https://www.youtube.com/watch?v=XLILd0R8btg&ab_channel=Rocketseat">
-                                </iframe >
-                            </div>
-                        </div>
+
                     </template>
                     <template #content>
-                        <div>
-                            
+                        <div class="flex align-items-start justify-content-center">
+                            <div>
+                                <div class="flex-column flex-wrap flex align-items-center justify-content-center">
+                                    <div>
+                                        <h2 style="color:black;">Aprenda física de maneira totalmente gratuíta e descomplicada.</h2>
+                                    </div>
+                                    <div>
+                                        <p style="color:black;">O mapa completo para você impulsionar seus estudos.</p>
+                                    </div>
+                                    <div>
+                                        <Button label="Registrar-se gratuitamente" icon="pi pi-user-plus" class="p-button-outlined p-button-help"/>
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <img src="../static/images/Team building _Monochromatic.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </template>
                 </Card> 
@@ -41,9 +41,15 @@
 
 <style scoped>
     .p-card{
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: white;
     }
     .p-button{
-        color: white !important;
+        color: black !important;
+    }
+    .card-chield{
+        background-color: white;
+    }
+    img{
+        height: 60vh;
     }
 </style>

@@ -1,5 +1,5 @@
 <template>
     <div>
-        <Aulas />
+        <Loading />
     </div>
 </template>
