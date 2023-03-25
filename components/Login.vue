@@ -38,7 +38,7 @@
                             <div class="col flex align-items-center justify-content-start">
                                     <div class="flex flex-wrap ">
                                         <div class="flex flex-column">
-                                            <h2 class="flex align-items-center justify-content-center " style="color:white;">FisicaFacil</h2>
+                                            <h2 class="flex align-items-center justify-content-center " style="color:white;">FísicaFácil</h2>
                                             <p class="flex align-items-center justify-content-center " style="color:white;">Aprenda do seu jeito, de qualquer lugar.</p>
                                             <br>
                                             <br>

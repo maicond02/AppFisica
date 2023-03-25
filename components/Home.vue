@@ -17,7 +17,9 @@
                                         <p style="color:black;">O mapa completo para você impulsionar seus estudos.</p>
                                     </div>
                                     <div>
+                                      <nuxt-link to="/register">
                                         <Button label="Registrar-se gratuitamente" icon="pi pi-user-plus" class="p-button-outlined p-button-secondary "/>
+                                      </nuxt-link>
                                     </div>
                                     
                                 </div>
@@ -61,118 +63,121 @@
 </script>
 
 <style scoped>
-    .p-card{
-        background-color: white;
-    }
-    .p-button{
-        color: black !important;
-    }
-    .card-chield{
-        background-color: white;
-    }
-    img{
-        height: 60vh;
-        max-width: 100%;
-    }
-    .card {
-        max-width: 350px;
-        background-color: rgb(1, 188, 235);
-        background: linear-gradient(to top right, rgb(0, 195, 255), rgb(143, 233, 255));
-        background: -webkit-linear-gradient(to top right, rgb(0, 195, 255), rgb(143, 233, 255));
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
-        border-radius: 20px;
-        border: 1px solid rgb(1, 188, 235);;
-}
+  .p-card{
+      background-color: white;
+  }
+  .p-button{
+      color: black !important;
+  }
+  .card-chield{
+      background-color: white;
+  }
+  img{
+      height: 60vh;
+      max-width: 100%;
+  }
+  a{
+    text-decoration: none;
+  }
+  .card {
+    max-width: 350px;
+    background-color: rgb(1, 188, 235);
+    background: linear-gradient(to top right, rgb(0, 195, 255), rgb(143, 233, 255));
+    background: -webkit-linear-gradient(to top right, rgb(0, 195, 255), rgb(143, 233, 255));
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(1, 188, 235);;
+  }
 
-.small-text, .title,.desc {
-  font-weight: 600;
-}
+  .small-text, .title,.desc {
+    font-weight: 600;
+  }
 
-.title,.desc {
-  margin: 8px 0;
-}
+  .title,.desc {
+    margin: 8px 0;
+  }
 
-.small-text {
-  color: #ffffff;
-  font-size: 14px;
-}
+  .small-text {
+    color: #ffffff;
+    font-size: 14px;
+  }
 
-.title {
-  color: #fff;
-  font-size: 26px;
-  line-height: 26px;
-}
+  .title {
+    color: #fff;
+    font-size: 26px;
+    line-height: 26px;
+  }
 
-.desc {
-  color: rgb(255, 255, 255);
-  font-size: 13px;
-}
+  .desc {
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+  }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 10px;
-}
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
 
-.button {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-radius: 10px;
-  padding: 6px;
-  text-decoration: none;
-}
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 6px;
+    text-decoration: none;
+  }
 
-.button:first-child {
-  box-shadow: 0 4px 6px -1px #488aec31, 0 2px 4px -1px #488aec17;
-  background-color: #000000;
-}
+  .button:first-child {
+    box-shadow: 0 4px 6px -1px #488aec31, 0 2px 4px -1px #488aec17;
+    background-color: #000000;
+  }
 
-.button:last-child {
-  box-shadow: 0 4px 6px -1px #0b162531, 0 2px 4px -1px #0e192b17;
-  background-color: #fff;
-}
+  .button:last-child {
+    box-shadow: 0 4px 6px -1px #0b162531, 0 2px 4px -1px #0e192b17;
+    background-color: #fff;
+  }
 
-.icon {
-  height: 34px;
-  width: 34px;
-}
+  .icon {
+    height: 34px;
+    width: 34px;
+  }
 
-.icon svg {
-  width: 100%;
-  height: 100%;
-}
+  .icon svg {
+    width: 100%;
+    height: 100%;
+  }
 
-.button-text {
-  display: flex;
-  flex-direction: column;
-  margin-left: 8px;
-}
+  .button-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+  }
 
-.button-text span:first-child {
-  font-size: 12px;
-  font-weight: 600;
-}
+  .button-text span:first-child {
+    font-size: 12px;
+    font-weight: 600;
+  }
 
-.google span:first-child {
-  color: rgb(219 206 253);
-}
+  .google span:first-child {
+    color: rgb(219 206 253);
+  }
 
-.apple span:first-child {
-  color: rgb(81 87 108);
-}
+  .apple span:first-child {
+    color: rgb(81 87 108);
+  }
 
-.google span:last-child {
-  color: #fff;
-  font-weight: 800;
-}
+  .google span:last-child {
+    color: #fff;
+    font-weight: 800;
+  }
 
-.apple span:last-child {
-  color: #000;
-  font-weight: 800;
-}
+  .apple span:last-child {
+    color: #000;
+    font-weight: 800;
+  }
 </style>
