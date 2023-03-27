@@ -63,7 +63,7 @@
 
 <style scoped>
    .card-container{
-        background-color: white;
+        background-color: #ffffff80;
     }
     .p-button{
         color: black !important;

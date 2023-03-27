@@ -64,7 +64,7 @@
 
 <style scoped>
   .p-card{
-      background-color: white;
+    background-color: #ffffff80;
   }
   .p-button{
       color: black !important;
@@ -81,14 +81,14 @@
   }
   .card {
     max-width: 350px;
-    background-color: rgb(1, 188, 235);
-    background: linear-gradient(to top right, rgb(0, 195, 255), rgb(143, 233, 255));
-    background: -webkit-linear-gradient(to top right, rgb(0, 195, 255), rgb(143, 233, 255));
+    background-color: #2c2d35(1, 188, 235);
+    background: linear-gradient(to top right, rgb(0, 96, 125), #2c2d35);
+    background: -webkit-linear-gradient(to top right, rgb(0, 96, 125), #2c2d35);
     display: flex;
     flex-direction: column;
     padding: 20px;
     border-radius: 20px;
-    border: 1px solid rgb(1, 188, 235);;
+    border: 1px solid linear-gradient(to top right, rgb(0, 96, 125), #2c2d35);;
   }
 
   .small-text, .title,.desc {

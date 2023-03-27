@@ -47,8 +47,8 @@
 
 <style scoped>
    .p-menubar::v-deep{
-        background-color: rgb(255, 255, 255);
-        color: white;
+        background-color: #ffffff80;
+        color: #2c2d35;
     }
     ::v-deep .p-menuitem-text{
         color: black !important;

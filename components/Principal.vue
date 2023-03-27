@@ -10,7 +10,7 @@
                         <nuxt-link to="/aulas">
                             <div class="card">
                                 <header class="card-header">
-                                <p>May 3rd 2023</p>
+                                <p>Maio de 2023</p>
                                 <span class="title">Aulas gravadas</span>
                                 </header>
                                 <div class="card-author">
@@ -21,50 +21,93 @@
                                     <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
                                 </svg>
                                 <div class="author-name">
-                                    <div class="author-name-prefix">Author</div> Folarin Lawal
+                                    <div class="author-name-prefix">Author</div> Professor M.A
                                     </div>
                                 </div>
                                 <div class="tags">
-                                    <a href="#">html</a>
-                                    <a href="#">css</a>
-                                    <a href="#">web-dev</a>
+                                    <a href="#">Física 1</a>
+                                    <a href="#">Física 2</a>
+                                    <a href="#">Física 3</a>
                                 </div>
                             </div>
                         </nuxt-link>
                     </div>
                     <div class="col">
-                        <nuxt-link to="">
-                            <Card>
-                                <template #content>
-                                    <div class="flex flex-wrap align-items-center justify-content-center">
-                                        <h2>Materiais</h2>
+                        <nuxt-link to="/aulas">
+                            <div class="card">
+                                <header class="card-header">
+                                <p>Maio de 2023</p>
+                                <span class="title">Aulas ao vivo</span>
+                                </header>
+                                <div class="card-author">
+                                <a class="author-avatar" href="#">
+                                    <span>
+                                </span></a>
+                                <svg class="half-circle" viewBox="0 0 106 57">
+                                    <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+                                </svg>
+                                <div class="author-name">
+                                    <div class="author-name-prefix">Author</div> M.A
                                     </div>
-                                </template>
-                            </Card>
+                                </div>
+                                <div class="tags">
+                                    <a href="#">Física 1</a>
+                                    <a href="#">Física 2</a>
+                                    <a href="#">Física 3</a>
+                                </div>
+                            </div>
                         </nuxt-link>
                     </div>
-                </div>
-                <div class="grid">
                     <div class="col">
-                        <nuxt-link to="">
-                            <Card>
-                                <template #content>
-                                    <div class="flex flex-wrap align-items-center justify-content-center">
-                                        <h2>Ao vivo</h2>
+                        <nuxt-link to="/aulas">
+                            <div class="card">
+                                <header class="card-header">
+                                <p>Maio de 2023</p>
+                                <span class="title">Materiais</span>
+                                </header>
+                                <div class="card-author">
+                                <a class="author-avatar" href="#">
+                                    <span>
+                                </span></a>
+                                <svg class="half-circle" viewBox="0 0 106 57">
+                                    <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+                                </svg>
+                                <div class="author-name">
+                                    <div class="author-name-prefix">Author</div> M.A
                                     </div>
-                                </template>
-                            </Card>
+                                </div>
+                                <div class="tags">
+                                    <a href="#">Física 1</a>
+                                    <a href="#">Física 2</a>
+                                    <a href="#">Física 3</a>
+                                </div>
+                            </div>
                         </nuxt-link>
                     </div>
                     <div class="col">
-                        <nuxt-link to="">
-                            <Card>
-                                <template #content>
-                                    <div class="flex flex-wrap align-items-center justify-content-center">
-                                        <h2>Fórum</h2>
+                        <nuxt-link to="/aulas">
+                            <div class="card">
+                                <header class="card-header">
+                                <p>Maio de 2023</p>
+                                <span class="title">Fórum</span>
+                                </header>
+                                <div class="card-author">
+                                <a class="author-avatar" href="#">
+                                    <span>
+                                </span></a>
+                                <svg class="half-circle" viewBox="0 0 106 57">
+                                    <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+                                </svg>
+                                <div class="author-name">
+                                    <div class="author-name-prefix"></div>
                                     </div>
-                                </template>
-                            </Card>
+                                </div>
+                                <div class="tags">
+                                    <a href="#">Física 1</a>
+                                    <a href="#">Física 2</a>
+                                    <a href="#">Física 3</a>
+                                </div>
+                            </div>
                         </nuxt-link>
                     </div>
                 </div>
@@ -79,7 +122,7 @@
 
 <style scoped>
     .p-card{
-        background-color: rgb(255, 255, 255);
+        background-color: #ffffff80;
     }
     .p-button{
         color: white !important;
@@ -97,8 +140,8 @@
   min-width: 250px;
   padding: 1rem;
   border-radius: 16px;
-  background: #17141d;
-  box-shadow: -1rem 0 3rem #00000067;
+  background: #2c2d35;
+  box-shadow: -1rem 0 3rem #002f4667;
   transition: .2s;
   font-family: 'Inter', sans-serif;
 }
@@ -120,7 +163,7 @@
 }
 
 .author-name-prefix {
-  color: #e52e71;
+  color: #7a7a8c;
   font-weight: 600;
 }
 
@@ -140,7 +183,7 @@
   width: 60px;
   height: 48px;
   fill: none;
-  stroke: #ff8a00;
+  stroke: #00fbff;
   stroke-width: 8;
   stroke-linecap: round;
 }
@@ -164,7 +207,7 @@
 }
 
 .card-header .title:hover {
-  background: linear-gradient(90deg,#ff8a00,#e52e71);
+  background: linear-gradient(90deg,#00fff7,#008cff);
   text-shadow: none;
   background-clip: text;
   -webkit-background-clip: text;
@@ -184,14 +227,14 @@
   color: #7a7a8c;
   text-transform: uppercase;
   font-size: .66rem;
-  border: 3px solid #28242f;
+  border: 3px solid #7a7a8c;
   border-radius: 2rem;
   padding: .2rem .85rem .25rem;
   position: relative;
 }
 
 .tags a:hover {
-  background: linear-gradient(90deg,#ff8a00,#e52e71);
+  background: linear-gradient(90deg,#00fff7,#008cff);
   text-shadow: none;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;

@@ -49,7 +49,7 @@
 
 <style scoped>
     ::v-deep .p-menubar{
-        background: white;
+        background-color: #ffffff80;
         color: black;
     }
     ::v-deep .p-menuitem-text{
