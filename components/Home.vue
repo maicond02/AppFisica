@@ -11,10 +11,10 @@
                             <div class="col">
                                 <div class="flex-column flex-wrap flex align-items-center justify-content-center">
                                     <div>
-                                        <h2 style="color:black;">Aprenda física de maneira totalmente gratuíta e descomplicada.</h2>
+                                        <h2 style="color:white;">Aprenda física de maneira totalmente gratuíta e descomplicada.</h2>
                                     </div>
                                     <div>
-                                        <p style="color:black;">O mapa completo para você impulsionar seus estudos.</p>
+                                        <p style="color:white;">O mapa completo para você impulsionar seus estudos.</p>
                                     </div>
                                     <div>
                                       <nuxt-link to="/register">
@@ -64,10 +64,10 @@
 
 <style scoped>
   .p-card{
-    background-color: #ffffff80;
+    background-color: rgba(255, 255, 255, 0.089)
   }
   .p-button{
-      color: black !important;
+      color: white !important;
   }
   .card-chield{
       background-color: white;
