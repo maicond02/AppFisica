@@ -114,7 +114,7 @@
 
 <style scoped>
     .p-card{
-        background-color: #ffffff80;
+        background-color: rgba(255, 255, 255, 0.089)
     }
     .p-button{
         color: white !important;
@@ -124,18 +124,18 @@
         text-decoration: none !important;
     }
     .card {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  height: 350px;
-  width: 190px;
-  min-width: 250px;
-  padding: 1rem;
-  border-radius: 16px;
-  background: #2c2d35;
-  box-shadow: -1rem 0 3rem #002f4667;
-  transition: .2s;
-  font-family: 'Inter', sans-serif;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 350px;
+    width: 190px;
+    min-width: 250px;
+    padding: 1rem;
+    border-radius: 16px;
+    background: #2c2d35;
+    box-shadow: -1rem 0 3rem #002f4667;
+    transition: .2s;
+    font-family: 'Inter', sans-serif;
 }
 
 .card:hover {
